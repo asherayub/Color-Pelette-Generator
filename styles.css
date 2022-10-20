@@ -10,11 +10,13 @@ body {
   height: 95vh;
   display: grid;
   place-items: center;
+  overflow-x: hidden;
 }
 #header {
   font-family: "Pacifico", cursive;
   font-size: 3rem;
   transition: color 300ms ease-in;
+  text-align: center;
 }
 .wrapper {
   background-color: #fff;
